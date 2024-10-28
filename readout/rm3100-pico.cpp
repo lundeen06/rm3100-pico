@@ -87,35 +87,35 @@ bool init_sensor() {
     // Check hardware revision
     uint8_t rev;
     if (!i2c_read_reg(RM3100_REG_REVID, &rev, 1)) {
-        printf("Failed to read revision ID\n");
+        // printf("Failed to read revision ID\n");
         return false;
     }
     
     // printf("Read revision ID: 0x%02X (expected 0x%02X)\n", rev, RM3100_REVID);
     
     if (rev != RM3100_REVID) {
-        printf("Unexpected revision ID\n");
+        // printf("Unexpected revision ID\n");
         return false;
     }
     
     // Set cycle counts (200 for all axes)
     uint8_t cc_buffer[6] = {0, 200, 0, 200, 0, 200};  // MSB, LSB format
     if (!i2c_write_reg(RM3100_REG_CCX, cc_buffer, 6)) {
-        printf("Failed to set cycle counts\n");
+        // printf("Failed to set cycle counts\n");
         return false;
     }
     
     // Set update rate (75 Hz)
     uint8_t rate = RM3100_CMM_RATE_75_0_HZ | RM3100_CMM_RATE_MSB;
     if (!i2c_write_reg(RM3100_REG_TMRC, &rate, 1)) {
-        printf("Failed to set update rate\n");
+        // printf("Failed to set update rate\n");
         return false;
     }
     
     // Enable continuous measurement mode
     uint8_t cmm = (1 << 0) | (RM3100_DRDM_ALL_AXES << 2) | (1 << 4) | (1 << 5) | (1 << 6);
     if (!i2c_write_reg(RM3100_REG_CMM, &cmm, 1)) {
-        printf("Failed to enable continuous measurement mode\n");
+        // printf("Failed to enable continuous measurement mode\n");
         return false;
     }
     
@@ -173,7 +173,8 @@ int main() {
     }
     sleep_ms(1000);
     
-    printf("\nRM3100 Magnetometer Program Starting...\n");
+    // Print CSV header
+    printf("Timestamp(ms),M_x(µT),M_y(µT),M_z(µT),M(µT)\n");
     stdio_flush();
     
     // Initialize LED
@@ -187,36 +188,23 @@ int main() {
     gpio_pull_up(I2C_SDA);
     gpio_pull_up(I2C_SCL);
     
-    printf("I2C Initialized on GPIO %d (SDA) and GPIO %d (SCL)\n", I2C_SDA, I2C_SCL);
-    stdio_flush();
-    
-    printf("Timestamp(ms)      M_x(µT)      M_y(µT)      M_z(µT)    M(µT)\n");
-    printf("-----------------------------------------------------------\n");
-    
     while (true) {
         if (!sensor_connected) {
-            // printf("\nAttempting to connect to RM3100...\n");
-            stdio_flush();
-            
             if (init_sensor()) {
-                // printf("RM3100 Magnetometer detected and initialized successfully!\n");
-                // printf("Timestamp(ms)      X(µT)      Y(µT)      Z(µT)    |M|(µT)\n");
-                // printf("-----------------------------------------------------------\n");
                 sensor_connected = true;
                 gpio_put(LED_PIN, 0);
             } else {
-                printf("Failed to initialize RM3100\n");
+                // printf("# Failed to initialize RM3100\n");
                 blink_led();
             }
         } else {
             float x, y, z, magnitude;
             if (read_sample(&x, &y, &z, &magnitude)) {
-                printf("\r%10llu %10.3f %10.3f %10.3f %10.3f", 
+                printf("%llu,%.3f,%.3f,%.3f,%.3f\n", 
                     time_us_64() / 1000,
                     x, y, z, magnitude);
                 fflush(stdout);
             } else {
-                // printf("\nError: Failed to read sample from RM3100\n");
                 sensor_connected = false;
             }
         }
