@@ -8,3 +8,6 @@ blink/pico-sdk/
 0-troubleshooting/i2c-device-scanner/pico-sdk/
 build/_deps/picotool-src/
 pico-sdk/
+output/magnetometer_data.csv
+output/magnetic_field_plots.png
+.DS_Store
