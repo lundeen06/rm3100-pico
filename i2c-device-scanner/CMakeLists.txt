@@ -1,8 +1,9 @@
 cmake_minimum_required(VERSION 3.13)
 
-# Set PICO_SDK_PATH before including pico_sdk_import.cmake
-set(PICO_SDK_PATH "/Users/lundeencahilly/.pico-sdk/sdk/2.0.0")
+# Set the SDK path - replace with your actual path to the pico-sdk
+set(PICO_SDK_PATH "~/pico-sdk")
 
+# Initialize the SDK
 include(pico_sdk_import.cmake)
 
 project(i2c_scanner C CXX ASM)
