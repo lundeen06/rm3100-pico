@@ -3,3 +3,8 @@ readout/pico-sdk/
 i2c-device-scanner/pico-sdk/
 blink/picotool/
 blink/pico-sdk/
+0-troubleshooting/blink/pico-sdk/
+0-troubleshooting/blink/picotool/
+0-troubleshooting/i2c-device-scanner/pico-sdk/
+build/_deps/picotool-src/
+pico-sdk/
