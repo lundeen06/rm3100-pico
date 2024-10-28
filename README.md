@@ -1,4 +1,4 @@
-# RM3100 Magnetometer Project
+# RM3100 + Pico
 
 This project implements a data collection system for the RM3100 magnetometer using a Raspberry Pi Pico microcontroller. The system captures magnetic field measurements in three axes and streams the data over USB.
 
