@@ -11,3 +11,4 @@ pico-sdk/
 output/magnetometer_data.csv
 output/magnetic_field_plots.png
 .DS_Store
+/build
