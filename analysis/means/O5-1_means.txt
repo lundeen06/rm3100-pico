@@ -1,0 +1,7 @@
+Mean Values for Magnetic Field Components
+=======================================
+
+M(µT): 223.19 µT
+M_x(µT): 8.61 µT
+M_y(µT): -222.54 µT
+M_z(µT): 6.43 µT

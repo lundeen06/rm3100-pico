@@ -1,0 +1,28 @@
+ORIENTATION WARNINGS
+===================
+WARNING: X-component is not dominant. Sensor may not be oriented correctly!
+Field components (µT) - X: 9.8, Y: 238.4, Z: 6.6
+
+Analysis Report
+Distance: 5.0 cm
+==================================================
+
+Observed Fields:
+M(µT): 239.43 µT
+M_x(µT): -9.79 µT
+M_y(µT): 238.38 µT
+M_z(µT): 6.58 µT
+
+Ambient Fields (averaged):
+M_x(µT): 20.46 ± 2.25 µT
+M_y(µT): -2.75 ± 1.68 µT
+M_z(µT): 0.70 ± 9.32 µT
+
+Net Field
+=========
+Net field vector (µT): [-30.25, 241.13, 5.88]
+Net field magnitude: 243.09 µT
+
+Calculated Magnetic Moment
+========================
+Moment magnitude: 3.04e-01 A⋅m²

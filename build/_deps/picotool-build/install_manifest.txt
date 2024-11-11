@@ -1,5 +1,0 @@
-/Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/build/_deps/picotool/picotool
-/Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/build/_deps/picotool/picotoolTargets.cmake
-/Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/build/_deps/picotool/picotoolTargets-release.cmake
-/Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/build/_deps/picotool/picotoolConfig.cmake
-/Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/build/_deps/picotool/picotoolConfigVersion.cmake

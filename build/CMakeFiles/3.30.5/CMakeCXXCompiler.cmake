@@ -1,7 +1,7 @@
-set(CMAKE_CXX_COMPILER "/opt/homebrew/bin/arm-none-eabi-g++")
+set(CMAKE_CXX_COMPILER "/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-g++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
-set(CMAKE_CXX_COMPILER_VERSION "13.3.1")
+set(CMAKE_CXX_COMPILER_VERSION "13.2.1")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "17")
@@ -24,11 +24,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/opt/homebrew/bin/arm-none-eabi-ar")
-set(CMAKE_CXX_COMPILER_AR "/opt/homebrew/bin/arm-none-eabi-gcc-ar")
-set(CMAKE_RANLIB "/opt/homebrew/bin/arm-none-eabi-ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib")
-set(CMAKE_LINKER "/opt/homebrew/bin/arm-none-eabi-ld")
+set(CMAKE_AR "/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-ar")
+set(CMAKE_CXX_COMPILER_AR "/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ar")
+set(CMAKE_RANLIB "/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-ranlib")
+set(CMAKE_CXX_COMPILER_RANLIB "/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc-ranlib")
+set(CMAKE_LINKER "/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-ld")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_CXX_COMPILER_LINKER "NOTFOUND")
@@ -87,9 +87,9 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1;/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v6-m/nofp;/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/backward;/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.3.1/include;/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.3.1/include-fixed;/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1;/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp;/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/backward;/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include;/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include-fixed;/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp;/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp;/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.3.1;/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/lib/gcc;/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp;/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp;/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1;/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc;/Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
 set(CMAKE_CXX_COMPILER_CLANG_RESOURCE_DIR "")
 

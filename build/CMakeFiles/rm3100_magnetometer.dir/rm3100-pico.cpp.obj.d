@@ -1,42 +1,42 @@
 CMakeFiles/rm3100_magnetometer.dir/rm3100-pico.cpp.obj: \
  /Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/rm3100-pico.cpp \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.3.1/include/stddef.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.3.1/include/stdarg.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/cstring \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/pstl/pstl_config.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdio.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_ansi.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/newlib.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_newlib_version.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/config.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/ieeefp.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/features.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/cdefs.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_default_types.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/reent.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_ansi.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_types.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_types.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/lock.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/stdio.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/cstring \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/pstl/pstl_config.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/string.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_locale.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/strings.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/string.h \
  /Users/lundeencahilly/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
  /Users/lundeencahilly/pico-sdk/src/common/pico_base_headers/include/pico.h \
  /Users/lundeencahilly/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
  /Users/lundeencahilly/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.3.1/include/stdbool.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/cassert \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.3.1/include/stdint.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/cassert \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/assert.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdint.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_intsup.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
  /Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/build/generated/pico_base/pico/version.h \
  /Users/lundeencahilly/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
  /Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/build/generated/pico_base/pico/config_autogen.h \
@@ -86,43 +86,43 @@ CMakeFiles/rm3100_magnetometer.dir/rm3100-pico.cpp.obj: \
  /Users/lundeencahilly/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
  /Users/lundeencahilly/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
  /Users/lundeencahilly/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/cmath \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/requires_hosted.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/cpp_type_traits.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/ext/type_traits.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/math.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/std_abs.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/stdlib.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/stdlib.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/specfun.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/stl_algobase.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/functexcept.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/exception_defines.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/ext/numeric_traits.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/stl_pair.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/type_traits \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/move.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/utility.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/stl_iterator_base_types.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/stl_iterator_base_funcs.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/concept_check.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/debug/assertions.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/stl_iterator.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/ptr_traits.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/debug/debug.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bits/predefined_ops.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/bit \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/limits \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/tr1/gamma.tcc \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/tr1/special_function_util.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/tr1/bessel_function.tcc \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/tr1/beta_function.tcc \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/tr1/ell_integral.tcc \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/tr1/exp_integral.tcc \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/tr1/hypergeometric.tcc \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/tr1/legendre_function.tcc \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/tr1/modified_bessel_func.tcc \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/tr1/poly_hermite.tcc \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/tr1/poly_laguerre.tcc \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/13.3.1/tr1/riemann_zeta.tcc
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/cmath \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/requires_hosted.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/cpp_type_traits.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/ext/type_traits.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/math.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/std_abs.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdlib.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/stdlib.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/alloca.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/specfun.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/stl_algobase.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/functexcept.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/exception_defines.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/ext/numeric_traits.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/stl_pair.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/type_traits \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/move.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/utility.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/stl_iterator_base_types.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/stl_iterator_base_funcs.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/concept_check.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/debug/assertions.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/stl_iterator.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/ptr_traits.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/debug/debug.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bits/predefined_ops.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/bit \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/limits \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/tr1/gamma.tcc \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/tr1/special_function_util.h \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/tr1/bessel_function.tcc \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/tr1/beta_function.tcc \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/tr1/ell_integral.tcc \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/tr1/exp_integral.tcc \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/tr1/hypergeometric.tcc \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/tr1/legendre_function.tcc \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/tr1/modified_bessel_func.tcc \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/tr1/poly_hermite.tcc \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/tr1/poly_laguerre.tcc \
+ /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/c++/13.2.1/tr1/riemann_zeta.tcc

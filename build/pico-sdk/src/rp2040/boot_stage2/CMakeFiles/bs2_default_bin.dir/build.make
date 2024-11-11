@@ -70,7 +70,7 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2040/
 
 pico-sdk/src/rp2040/boot_stage2/bs2_default.bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/build/pico-sdk/src/rp2040/boot_stage2 && /opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.elf /Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+	cd /Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/build/pico-sdk/src/rp2040/boot_stage2 && /Users/lundeencahilly/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-objcopy -Obinary /Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.elf /Users/lundeencahilly/Desktop/github/0-SSI/rm3100-pico/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 bs2_default_bin: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin
 bs2_default_bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.bin

@@ -8,7 +8,22 @@ def plot_magnetic_fields(csv_file):
     
     # Convert timestamp to seconds for better readability
     df['Time(s)'] = (df['Timestamp(ms)'] - df['Timestamp(ms)'].iloc[0]) / 1000.0
-
+    
+    # Calculate means and store them
+    means = {}
+    for column in ['M(µT)', 'M_x(µT)', 'M_y(µT)', 'M_z(µT)']:
+        means[column] = df[column].mean()
+    
+    # Save means to text file
+    filename = csv_file.split('/')[-1].replace('.csv', '_means.txt')
+    output_path = f'./analysis/means/{filename}'
+    
+    with open(output_path, 'w') as f:
+        f.write("Mean Values for Magnetic Field Components\n")
+        f.write("=======================================\n\n")
+        for component, mean_value in means.items():
+            f.write(f"{component}: {mean_value:.2f} µT\n")
+    
     # Print some basic statistics
     print("\nStatistics:")
     print("-----------------")
@@ -29,7 +44,7 @@ def plot_magnetic_fields(csv_file):
     axs[0].set_ylabel('M (µT)')
     axs[0].grid(True)
     axs[0].legend()
-
+    
     # Plot M_x
     axs[1].plot(df['Time(s)'], df['M_x(µT)'], 'b-', label='M_x')
     axs[1].set_ylabel('M_x (µT)')
@@ -52,7 +67,7 @@ def plot_magnetic_fields(csv_file):
     plt.tight_layout()
     
     # Save the plot
-    plt.savefig('./output/magnetic_field_plots.png', dpi=500, bbox_inches='tight')
+    # plt.savefig('./output/plot.png', dpi=500, bbox_inches='tight')
     
     # Show the plot
     plt.show()
@@ -60,4 +75,13 @@ def plot_magnetic_fields(csv_file):
 # Example usage
 if __name__ == "__main__":
     # Replace 'your_data.csv' with your actual CSV file name
-    plot_magnetic_fields('./output/magnetometer_data.csv')
+    plot_magnetic_fields('./output/A-1.csv')
+    plot_magnetic_fields('./output/A-2.csv')
+    plot_magnetic_fields('./output/O5-1.csv')
+    plot_magnetic_fields('./output/O10-1.csv')
+    plot_magnetic_fields('./output/I5-1.csv')
+    plot_magnetic_fields('./output/I10-1.csv')
+    plot_magnetic_fields('./output/O5-2.csv')
+    plot_magnetic_fields('./output/O10-2.csv')
+    plot_magnetic_fields('./output/I5-2.csv')
+    plot_magnetic_fields('./output/I10-2.csv')

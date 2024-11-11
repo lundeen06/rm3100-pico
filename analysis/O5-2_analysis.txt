@@ -1,0 +1,23 @@
+Analysis Report
+Distance: 5.0 cm
+==================================================
+
+Observed Fields:
+M(µT): 290.51 µT
+M_x(µT): 285.91 µT
+M_y(µT): 37.44 µT
+M_z(µT): 34.59 µT
+
+Ambient Fields (averaged):
+M_x(µT): 20.46 ± 2.25 µT
+M_y(µT): -2.75 ± 1.68 µT
+M_z(µT): 0.70 ± 9.32 µT
+
+Net Field
+=========
+Net field vector (µT): [265.44, 40.19, 33.89]
+Net field magnitude: 270.60 µT
+
+Calculated Magnetic Moment
+========================
+Moment magnitude: 3.38e-01 A⋅m²
