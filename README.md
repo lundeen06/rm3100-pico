@@ -27,10 +27,10 @@ This project implements a data collection system for the RM3100 magnetometer usi
 
 ### Pinouts
 #### Raspberry Pi Pico
-![Pico Pinout](/assets/pico-pinout)
+![Pico Pinout](./assets/pico-pinout.png)
 
 #### RM3100 Magnetometer
-![RM3100 Pinout](/assets/rm3100-pinout)
+![RM3100 Pinout](./assets/rm3100-pinout.png)
 
 ## Software Dependencies
 
