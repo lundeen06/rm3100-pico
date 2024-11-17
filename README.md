@@ -25,6 +25,13 @@ This project implements a data collection system for the RM3100 magnetometer usi
 | I2C SCL      | GPIO 1    | Pin 2       |
 | LED          | GPIO 25   | Built-in LED|
 
+### Pinouts
+#### Raspberry Pi Pico
+![Pico Pinout](/assets/pico-pinout)
+
+#### RM3100 Magnetometer
+![RM3100 Pinout](/assets/rm3100-pinout)
+
 ## Software Dependencies
 
 ```bash
